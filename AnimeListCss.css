@@ -3,7 +3,7 @@ body
 {	
 	margin: auto;
 	width: 100%;
-	background: linear-gradient(90deg, black, #500050, black);	
+	background: linear-gradient(90deg, black, gray, black);	
 }
 
 section
