@@ -10,7 +10,7 @@
 
 	<!-- Page web créé par William Naud. Le .-->
 	
-	<body id="Body" onload="ColorHour(), totalTiming()"> 
+	<body onload="totalTiming()">
 		<header>  
 			
 		</header>
@@ -18,14 +18,12 @@
 	
 		<nav >
 			
-			
-			
 			<ul class="LeUl" id="bottommenu" >							<!--éici-->
 			
-				<li><a  href="HtmlNew.html">Acceuil</a></li>
-				<li><a href="Gab.html" class="active">Gab</a></li>
-				<li><a href="NewBestGrill.html">Best Grill</a></li>
-				<li class="dropdown">
+				<li><a  href="HtmlNew.html">PhatWombat</a></li>
+				<li><a href="Gab.html" class="active">Juffinder</a></li>
+				<li><a href="NewBestGrill.html">Lorano</a></li>
+				<!--<li class="dropdown">
 					<a class="dropbtn">Sections</a>
 					<div class="dropdown-content">
 						<a href="NewAction.html" class="NavA">Action</a>
@@ -39,98 +37,74 @@
 						<a href="NewSlice of Life.html" class="NavA">Slice of Life</a>
 						<a href="NewSupernatural.html" class="NavA">Supernatural</a>
 					</div>
-				</li>
-				
-				
-				
-				
+				</li>-->
 			</ul>
-			
-			<img src="https://cdn.discordapp.com/attachments/369661054042505237/369661696962461716/tosaka2.gif" class="TeteDroite" 
-					alt="Tosaka2.gif" title="" />
-			
-			<img src="https://cdn.discordapp.com/attachments/369661054042505237/369661816474828820/Bunnies.png" class="Bunnies" 
-					id="BunnieHollo" onclick="Hiboux()"    alt="Bunnies.png"  />
-			<!--<img class="vite" id="BunnieHollo" onclick="Hiboux()" src="Images/Bunnies.png"   alt="Bunnies"  />-->
+	
 		</nav>
 		
 		
 		<section>
 			<h2>Vue:</h2>
-			<ol class="CenteredUl">
-				<a class="ColoneCentre" target="tab" href="http://hentaihaven.org/series/bible-black/?sort=title"><li>Bible Black</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/one-piece-dub.34r"><li>One Piece</li></a><p class="nbEpisode">527</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/monster-musume-everyday-life-with-monster-girls.ywx"><li>Monster Musume</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/One-Punch-Man-Dub"><li>One Punch Man</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/High-School-DxD-Dub"><li>High School DxD</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Steins-Gate-Dub"><li>Steins Gate</li></a><p class="nbEpisode">7</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/DanMachi-Dub"><li>DanMachi</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Berserk-2016-Dub"><li>Berserk 2016</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/rezero-starting-life-in-another-world.jv78"><li>Re:Zero</li></a><p class="nbEpisode">25</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/miss-kobayashis-dragon-maid.0y8k"><li>Miss Kobayashi's Dragon Maid</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Demi-chan-wa-Kataritai-dub"><li>Demi chan wa Kataritai</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Mirai-Nikki"><li>Mirai Nikki</li></a><p class="nbEpisode">27</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Death-Note-Dub"><li>Death Note</li></a></a><p class="nbEpisode">25</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kill-la-Kill-Dub" ><li>Kill La Kill</li></a><p class="nbEpisode">24</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kono-Subarashii-Sekai-ni-Shukufuku-wo"><li>Konosuba</li></a><p class="nbEpisode">22</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Deadman-Wonderland-Dub"><li>DeadMan Wonderland</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://9anime.is/watch/ookami-to-koushinryou-dub.813n"><li>Spice & Wolf</li></a><p class="nbEpisode">22</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari"><li>Kizumonogatari Part 1: Tekketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">64</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari-Part-2-Nekketsu"><li>Kizumonogatari Part 2: Nekketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">68</p>
-				<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari-III-Reiketsu-hen"><li>Kizumonogatari Part 3: Reiketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">83</p>
-				<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/bakemonogatari.579"><li>Bakemonogatari</li></a><p class="nbEpisode">15</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/1446-overlord"><li>Overlord</li></a><p class="nbEpisode">20</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/2397-gabriel-dropout"><li>Gabriel Dropout</li></a><p class="nbEpisode">3</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/1467-himouto-umaru-chan"><li>Imouto Umaru-chan</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/amagi-brilliant-park-dub.y6lz"><li>Amagi Brilliant Park</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<p>2019/04/02</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai"><li>Shimoneta</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Tate-no-Yuusha-no-Nariagari"><li>The Rising of the Shield Hero</li></a><p class="nbEpisode">23</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Goblin-Slayer"><li>Goblin Slayer</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Acchi-Kocchi"><li>Acchi Kocchi</li></a><p class="nbEpisode">2</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Isekai-Maou-to-Shoukan-Shoujo-no-Dorei-Majutsu"><li>How Not to Summon a Demon Lord</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Shinmai-Maou-no-Testament"><li>The Testament of Sister New Devil</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Cells-at-Work"><li>Cells at Work</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Violet-Evergarden-Dub"><li>Violet Evergarden</li></a><p class="nbEpisode">2</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href=""><li></li></a>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Hellsing-Ultimate-Dub"><li>Hellsing Ultimate</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">50</p>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Sewayaki-Kitsune-no-Senko-san"><li>Meddlesome Kitsune Senko-san</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/castlevania.lmyq?ep=4"><li>CastleVania</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href=""><li></li></a>
-				<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Maoyuu-Maou-Yuusha"><li>Maoyuu Maou Yuusha</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
-				<a class="ColoneCentre" target="tab" href=""><li></li></a>
-				<a class="ColoneCentre" target="tab" href=""><li></li></a>
-				
-				<!-- <a class="ColoneCentre" target="tab" href=""><li></li></a>-->
-			</ol>
+			
+			<article id="bitch">
+			
+				<ol class="CenteredUl" id="bitch">
+					<a class="ColoneCentre" target="tab" href="http://hentaihaven.org/series/bible-black/?sort=title"><li>Bible Black</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/one-piece-dub.34r"><li>One Piece</li></a><p class="nbEpisode">527</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/monster-musume-everyday-life-with-monster-girls.ywx"><li>Monster Musume</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/One-Punch-Man-Dub"><li>One Punch Man</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/High-School-DxD-Dub"><li>High School DxD</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Steins-Gate-Dub"><li>Steins Gate</li></a><p class="nbEpisode">7</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/DanMachi-Dub"><li>DanMachi</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Berserk-2016-Dub"><li>Berserk 2016</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/rezero-starting-life-in-another-world.jv78"><li>Re:Zero</li></a><p class="nbEpisode">25</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www2.9anime.is/watch/miss-kobayashis-dragon-maid.0y8k"><li>Miss Kobayashi's Dragon Maid</li></a><p class="nbEpisode">14</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Demi-chan-wa-Kataritai-dub"><li>Demi chan wa Kataritai</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Mirai-Nikki"><li>Mirai Nikki</li></a><p class="nbEpisode">27</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Death-Note-Dub"><li>Death Note</li></a></a><p class="nbEpisode">25</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kill-la-Kill-Dub" ><li>Kill La Kill</li></a><p class="nbEpisode">24</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kono-Subarashii-Sekai-ni-Shukufuku-wo"><li>Konosuba</li></a><p class="nbEpisode">22</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Deadman-Wonderland-Dub"><li>DeadMan Wonderland</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://9anime.is/watch/ookami-to-koushinryou-dub.813n"><li>Spice & Wolf</li></a><p class="nbEpisode">22</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari"><li>Kizumonogatari Part 1: Tekketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">64</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari-Part-2-Nekketsu"><li>Kizumonogatari Part 2: Nekketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">68</p>
+					<a class="ColoneCentre" target="tab" href="http://kissanime.ru/Anime/Kizumonogatari-III-Reiketsu-hen"><li>Kizumonogatari Part 3: Reiketsu</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">83</p>
+					<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/bakemonogatari.579"><li>Bakemonogatari</li></a><p class="nbEpisode">15</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/1446-overlord"><li>Overlord</li></a><p class="nbEpisode">20</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/2397-gabriel-dropout"><li>Gabriel Dropout</li></a><p class="nbEpisode">3</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://www.masterani.me/anime/info/1467-himouto-umaru-chan"><li>Imouto Umaru-chan</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/amagi-brilliant-park-dub.y6lz"><li>Amagi Brilliant Park</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<p>2019/04/02</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai"><li>Shimoneta</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Tate-no-Yuusha-no-Nariagari"><li>The Rising of the Shield Hero</li></a><p class="nbEpisode">23</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Goblin-Slayer"><li>Goblin Slayer</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Acchi-Kocchi"><li>Acchi Kocchi</li></a><p class="nbEpisode">2</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Isekai-Maou-to-Shoukan-Shoujo-no-Dorei-Majutsu"><li>How Not to Summon a Demon Lord</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Shinmai-Maou-no-Testament"><li>The Testament of Sister New Devil</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Cells-at-Work"><li>Cells at Work</li></a><p class="nbEpisode">13</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Violet-Evergarden-Dub"><li>Violet Evergarden</li></a><p class="nbEpisode">2</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href=""><li></li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Hellsing-Ultimate-Dub"><li>Hellsing Ultimate</li></a><p class="nbEpisode">1</p><p class="lengthEpisode">50</p>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Sewayaki-Kitsune-no-Senko-san"><li>Meddlesome Kitsune Senko-san</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href="https://9anime.to/watch/castlevania.lmyq?ep=4"><li>CastleVania</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href=""><li></li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Maoyuu-Maou-Yuusha"><li>Maoyuu Maou Yuusha</li></a><p class="nbEpisode">12</p><p class="lengthEpisode">24</p>
+					<a class="ColoneCentre" target="tab" href=""><li></li></a>
+					<a class="ColoneCentre" target="tab" href=""><li></li></a>
+
+					<!-- <a class="ColoneCentre" target="tab" href=""><li></li></a>-->
+				</ol>
+			
+			</article>
+		
 		</section>
 		
 		
 		<section>
 			<p class="timeInvest" id="timeInvest">x</p>				<!--	<p class="nbEpisode">13</p><p class="lengthEpisode">24</p>	-->
 		</section>
-	
-	
-		<!--<aside class="Valhalla" id="Valhalla" onclick="on()">-->
-				<img class="Valhalla" id="Valhalla" onclick="on()" 
-				src="https://cdn.discordapp.com/attachments/369661054042505237/408873208104747008/Boobs04.png"/><!--<p>Click me! pls</p>-->
-		<!--</aside>-->
-	
-		<div id="overlay" onclick="off()">
-				<!--<div id="text">Overlay Text</div>-->
-				<img id="imgOverlay" src="https://cdn.discordapp.com/attachments/369661054042505237/408117756685451264/Ahri10.3.png"/>
-		</div>
+
 		
-		<!--<footer id="Footer" class="FootImgBot">
-			<img class="ImgBot" src="https://cdn.discordapp.com/attachments/369661054042505237/369661966181990400/Saeko05.png"   
-					alt="d" onclick="ImgBot()" id="ImgBottom"/>-->
-			
-			<!--
-			<img src="Images\Rias02.png" class="FooterLeft" alt="Leviathan" title=""/>
-			<img src="Images\Irina03.png" class="FooterRight" alt="Leviathan" title=""/>
-			-->
-			
-		</footer>
 
 	</body>
 </html>
