@@ -144,15 +144,14 @@ li.dropdown {
 {
 	position: fixed;
 	bottom: 0px;
-	left: 2%;
-	width: 15%;
+	left: 0%;
+	width: 10%;
 }
 
 .FooterRight
 {	
 	position: fixed;
 	bottom: 0px;
-	right: 2%;
-	width: 15%;
-	cursor: pointer;
+	right: 0%;
+	width: 10%;
 }
