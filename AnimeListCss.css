@@ -147,3 +147,12 @@ li.dropdown {
 	left: 2%;
 	width: 15%;
 }
+
+.FooterRight
+{	
+	position: fixed;
+	bottom: 0px;
+	right: 2%;
+	width: 15%;
+	cursor: pointer;
+}
