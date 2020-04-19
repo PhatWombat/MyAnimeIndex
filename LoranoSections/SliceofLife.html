@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../AnimeListCss.css" />
+		<title>Slice of Life Anime List</title>
+		<script src="../AnimeListJS.js"></script>
+		<link rel="icon" href="https://cdn.discordapp.com/attachments/369661054042505237/369661917444177921/Owlbear.png" type="image/gif" sizes="any">
+	</head>
+	
+	
+	<body onload="totalTiming()">
+		<header>  
+			
+		</header>
+	
+		<nav>
+			<ul class="LeUl" id="bottommenu" >
+				<li><a  href="https://phatwombat.github.io/LightNovelIndex/index.html" >LigthNovel</a></li>
+				<li class="dropdown">
+					<a class="dropbtn">Anime List</a>
+					<div class="dropdown-content">
+                        			<a href="../AnimeListe.html" class="NavA">PhatWombat</a>
+						<a href="../Lorano.html" class="NavA">Lorano</a>
+						<a href="../Jufinder.html" class="NavA">Jufinder</a>
+					</div>
+				</li>
+                
+				<li class="dropdown">
+					<a class="active" class="dropbtn">Sections</a>
+					<div class="dropdown-content">
+                        			<a href="Action.html" class="NavA">Action</a>
+						<a href="Adventure.html" class="NavA">Adventure</a>
+						<a href="Comedy.html" class="NavA">Comedy</a>
+						<a href="Ecchi.html" class="NavA">Ecchi</a>
+						<a href="Horror.html" class="NavA">Horror</a>
+						<a href="Movie.html" class="NavA">Movie</a>
+						<a href="Mystery.html" class="NavA">Mystery</a>
+						<a href="Sci-Fi.html" class="NavA">Sci-Fi</a>
+						<a href="SliceofLife.html" class="active" class="NavA">Slice of Life</a>
+						<a href="Supernatural.html" class="NavA">Supernatural</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		
+		
+		<section>
+			<article id="bitch">
+				<ol class="CenteredUl" id="bitch">
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Hyouka"><li>Hyouka</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Inou-Battle-wa-Nichijou-kei-no-Naka-de"><li>When Supernatural Battles Became Commonplace</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Flying-Witch"><li>Flying Witch</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Tanaka-kun-wa-Itsumo-Kedaruge"><li>Tanaka-kun wa itsumo Kedaruge</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Violet-Evergarden-Special"><li>Violet Evergarden Special</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Amaama-to-Inazuma"><li>Amaama to Inazuma</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Acchi-Kocchi"><li>Acchi Kocchi</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Maoyuu-Maou-Yuusha"><li>Maoyuu Maou Yuusha</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Yuru-Camp"><li>Yuru Camp</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/The-Ancient-Magus-Bride"><li>Mahoutsukai no Yome</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Death-March-kara-Hajimaru-Isekai-Kyousoukyoku"><li>Death March kara Hajimaru Isekai Kyousoukyoku</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Blend-S"><li>Blend S</li></a>
+					
+				
+					<!--<a class="ColoneCentre" target="tab" href=""><li></li></a>-->
+				</ol>
+			</article>
+		</section>
+	
+	
+		<footer class="FooterImgCorner">
+			
+			<aside>
+				<img src="https://cdn.discordapp.com/attachments/369661054042505237/391437776211542016/kanna_kamui02.png" class="Kanna" alt="RndLeft.png" id="Kanna" title=""/>
+			</aside>
+			
+			<aside>
+				<img src="https://cdn.discordapp.com/attachments/369661054042505237/391439736113463307/Kanna_KamuiDodo01.png" class="KannaDodo" alt="RndRight.png" id="KannaDodo" title="Click Me"/>
+			</aside>
+			
+			
+			<script type="text/javascript">
+				(function() {     // function expression closure to contain variables
+				    var i = 0;
+				    var pics = ["https://cdn.discordapp.com/attachments/369661054042505237/391439736113463307/Kanna_KamuiDodo01.png", 
+								"https://cdn.discordapp.com/attachments/369661054042505237/391439736235098114/Kanna_KamuiDodo02.png"
+								];
+				    var el = document.getElementById('KannaDodo');  // el doesn't change
+
+					function toggle() {
+					    i = (i + 1) % pics.length;  // update the counter
+					el.src = pics[i];           // set the image
+				    }
+				    setInterval(toggle, 4000);
+				})();   
+			</script>
+			
+		</footer>
+
+	</body>
+</html>
