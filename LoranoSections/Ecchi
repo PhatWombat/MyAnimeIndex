@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../AnimeListCss.css" />
+		<title>Ecchi Anime List</title>
+		<script src="../AnimeListJS.js"></script>
+		<link rel="icon" href="https://cdn.discordapp.com/attachments/369661054042505237/369661917444177921/Owlbear.png" type="image/gif" sizes="any">
+	</head>
+	
+	
+	<body onload="totalTiming()">
+		<header>  
+			
+		</header>
+	
+		<nav>
+			<ul class="LeUl" id="bottommenu" >
+				<li><a  href="https://phatwombat.github.io/LightNovelIndex/index.html" >LigthNovel</a></li>
+				<li class="dropdown">
+					<a class="dropbtn">Anime List</a>
+					<div class="dropdown-content">
+                        			<a href="../AnimeListe.html" class="NavA">PhatWombat</a>
+						<a href="../Lorano.html" class="NavA">Lorano</a>
+						<a href="../Jufinder.html" class="NavA">Jufinder</a>
+					</div>
+				</li>
+                
+				<li class="dropdown">
+					<a class="active" class="dropbtn">Sections</a>
+					<div class="dropdown-content">
+                        			<a href="Action.html" class="NavA">Action</a>
+						<a href="Adventure.html" class="NavA">Adventure</a>
+						<a href="Comedy.html" class="NavA">Comedy</a>
+						<a href="Ecchi.html" class="active" class="NavA">Ecchi</a>
+						<a href="Horror.html" class="NavA">Horror</a>
+						<a href="Movie.html" class="NavA">Movie</a>
+						<a href="Mystery.html" class="NavA">Mystery</a>
+						<a href="Sci-Fi.html" class="NavA">Sci-Fi</a>
+						<a href="SliceofLife.html" class="NavA">Slice of Life</a>
+						<a href="Supernatural.html" class="NavA">Supernatural</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		
+	
+		<section>
+			<article id="bitch">
+				<ol class="CenteredUl" id="bitch">
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Sankarea"><li>Sankarea</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Valkyrie-Drive-Mermaid"><li>Valkyrie Drive: Mermaid</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/IS-Infinite-Stratos"><li>IS Infinite Stratos</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Gakusen-Toshi-Asterisk"><li>The Asterisk War</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Date-A-Live"><li>Date a Live</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Absolute-Duo"><li>Absolute Duo</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Shinmai-Maou-no-Testament"><li>Shinmai Maou no Testament</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Campione-Matsurowanu-Kamigami-to-Kamigoroshi-no-Maou"><li>Campione</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Nyan-Koi"><li>Nyan-Koi</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Yamada-kun-to-7-nin-no-Majo-TV"><li>Yamada-kun and the 7 Witches</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/To-LOVE-Ru"><li>To Love-Ru</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Isuca"><li>Isuca</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Masou-Gakuen-HxH"><li>Masou Gakuen HxH</li></a>
+					<a class="ColoneCentre" target="tab" href="https://kissanime.ru/Anime/Dakara-Boku-wa-H-ga-Dekinai"><li>Dakara Boku wa, H ga Dekinai</li></a>
+					
+				
+					<!--<a class="ColoneCentre" target="tab" href=""><li></li></a>-->
+				</ol>
+			</article>
+		</section>
+	
+	
+		<footer class="FooterImgCorner">
+			
+			<aside>
+				<img src="https://cdn.discordapp.com/attachments/369661054042505237/369661828747231232/Cordelia02.png" class="FooterLeft" alt="RndLeft.png" id="imgCornerLeft" title=""/>
+			</aside>
+			
+			<aside>
+				<img src="https://cdn.discordapp.com/attachments/369661054042505237/369661901736640512/Leviathan01.png" class="FooterRight" alt="RndRight.png" id="imgCornerRight" title="Click Me"/>
+			</aside>
+			
+		</footer>
+
+	</body>
+</html>
