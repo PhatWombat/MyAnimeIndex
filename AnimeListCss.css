@@ -145,7 +145,7 @@ li.dropdown {
 	position: fixed;
 	bottom: 0px;
 	left: 0%;
-	heigth: 463px;
+	height: 463px;
 }
 
 .FooterRight
@@ -153,5 +153,5 @@ li.dropdown {
 	position: fixed;
 	bottom: 0px;
 	right: 0%;
-	heigth: 463px;
+	height: 463px;
 }
