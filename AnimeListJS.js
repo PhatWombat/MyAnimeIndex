@@ -51,9 +51,9 @@ function totalTiming(nbEpisode, lengthEpisode) {
 	}
 	
 	
-	document.getElementById("timeInvest").innerHTML = "Total : " + converTime(totalTiming) + 
+	document.getElementById("timeInvest").innerHTML = "Total : " + converTime(totalTiming) + numberWithSpaces(totalTiming) +
 				"<p> Total en heures : " + (totalTiming / 60).toFixed(2) + " heure(s)."  + "</p>" + 
-				"<p> Total en minutes : " + totalTiming + " minutes" + totalTiming = numberWithSpaces(totalTiming)+  "</p>";
+				"<p> Total en minutes : " + totalTiming + " minutes" + "</p>";
 }
 
 function converTime(tempsMinute) {
