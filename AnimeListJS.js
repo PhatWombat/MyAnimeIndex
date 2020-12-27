@@ -50,6 +50,8 @@ function totalTiming(nbEpisode, lengthEpisode) {
 		totalTiming += document.getElementById("timeInvest").innerHTML = (parseInt(x3, 10) * parseInt(x4, 10));
 	}
 	
+	totalTiming = numberWithSpaces(totalTiming);
+	
 	document.getElementById("timeInvest").innerHTML = "Total : " + converTime(totalTiming) + 
 				"<p> Total en heures : " + (totalTiming / 60).toFixed(2) + " heure(s)."  + "</p>" + 
 				"<p> Total en minutes : " + totalTiming + " minutes" + "</p>";
@@ -63,6 +65,10 @@ function converTime(tempsMinute) {
 	var nbMin = (tempsMinute % 1440) %  60;
 	
 	return resultat = nbJour/*.toFixed(0) */+ " jour " + nbHeure + " heure " +  nbMin + " min " ;
+}
+
+function numberWithSpaces(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 /*
